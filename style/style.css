@@ -1,0 +1,155 @@
+body {
+	padding-top: 20px;
+	font-family: 'Muli', sans-serif;
+}
+
+.square-container {
+	width: 100%;
+	height: 100%;
+	padding: none;
+	margin: none;
+}
+
+.square {
+	/*width: 8.33%;*/
+	/*width: auto;*/
+	padding: none;
+	margin: none;
+	float: left;
+}
+
+.square-row {
+	width: 100%;
+}
+
+.title {
+	font-size: 24px;
+}
+
+.move-number {
+	float: right;
+	font-size: 16px;
+}
+
+.picker {
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	float: left;
+	margin: 2px;
+}
+
+.pickers {
+	margin-left: 10px;
+	float: left;
+}
+
+.picker:hover {
+	border: 1px solid #EAEAEA;
+}
+
+.red {
+	background: red;
+}
+
+.red-text {
+	color: red;
+}
+
+.orange {
+	background: orange;
+}
+
+.orange-text {
+	color: orange;
+}
+
+.yellow {
+	background: #FFF000;
+}
+
+.yellow-text {
+	color: #FFF000;
+}
+
+.green {
+	background: #2CA92C;
+}
+
+.green-text {
+	color: #2CA92C;
+}
+
+.blue {
+	background: blue;
+}
+
+.blue-text {
+	color: blue;
+}
+
+.purple {
+	background: #961596;
+}
+
+.purple-text {
+	color: #961596;
+}
+
+.aqua {
+	background: #18D3D3;
+}
+
+.aqua-text {
+	color: #18D3D3;
+}
+
+.pink {
+	background: #EDA2AF;
+}
+
+.pink-text {
+	color: #EDA2AF;
+}
+
+.row {
+	margin: 10px;
+}
+
+.text-center {
+	text-align: center;
+	font-family: 'Muli', sans-serif;
+}
+
+.header {
+	font-family: 'Muli', sans-serif;
+}
+
+.win-text {
+	margin-top: 10px;
+	margin-bottom: none;
+	padding-bottom: none;
+	font-size: 40px;
+	font-weight: bold;
+}
+
+.win-moves {
+	margin-top: none;
+	padding-top: none;
+	font-size: 20px;
+}
+
+.options-button {
+	margin: 4px;
+	width: 150px;
+}
+
+.options-list {
+	list-style: none;
+}
+
+.options:hover {
+	font-weight: bold;
+	color: blue;
+}
+
